@@ -38,9 +38,7 @@ function InputSection(props) {
         }}
       />
       <button
-        onClick={() => {
-          addHandler();
-        }}
+        onClick={() => {addHandler();}}
       >
         Add new To Do
       </button>
@@ -49,3 +47,4 @@ function InputSection(props) {
 }
 
 export default InputSection;
+
